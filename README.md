@@ -1,4 +1,4 @@
-# Chen API
+# Xin API
 
 > 一个丰富的API开放调用平台，为开发者提供便捷、实用、安全的API调用体验
 >
@@ -6,9 +6,9 @@
 >
 > 
 >
-> 在线体验地址：[Chen API](http://www.chen-code.work/)
+> 在线体验地址：[Xin API](http://139.159.192.124/)
 > 
-> 后端开源地址：[https://github.com/isxiaochen/Chen-API](https://github.com/isxiaochen/Chen-API)
+> 后端开源地址：[https://github.com/axinqiqi/xinapi-server](https://github.com/axinqiqi/xinapi-server)
 
 
 
