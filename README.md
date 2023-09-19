@@ -106,14 +106,12 @@
 
 ## 项目模块
 
-- api-frontend ：为项目前端，前端项目启动具体看readme.md文档
-- api-common ：为公共封装类（如公共实体、公共常量，统一响应实体，统一异常处理）
-- api-backend ：为接口管理平台，主要包括用户、接口相关的功能
-- api-gateway ：为网关服务，**涉及到网关限流，统一鉴权，统一日志处理，接口统计，接口数据一致性处理**
-- api-order ：为订单服务，主要涉及到接口的购买等
-- api-third-party：为第三方服务，主要涉及到腾讯云短信、支付宝沙箱支付功能
-- api-interface：为接口服务，提供可供调用的接口
-- api-sdk：提供给开发者的SDK
+- xinapi-frontend ：为项目前端，前端项目启动具体看readme.md文档
+- xinapi-common ：为公共封装类（如公共实体、公共常量，统一响应实体，统一异常处理）
+- xinapi-backend ：为接口管理平台，主要包括用户、接口、订单、第三方服务相关的功能
+- xinapi-gateway ：为网关服务，**涉及到网关限流，统一鉴权，统一日志处理，接口统计，接口数据一致性处理**
+- xinapi-interface：为接口服务，提供可供调用的接口
+- xinapi-sdk：提供给开发者的SDK
 
 
 
@@ -155,11 +153,9 @@
 4. 按顺序启动服务
 
 服务启动顺序参考：
-1. api-backend
-2. api-order
-3. api-gateway
-4. api-third-party
-5. api-interface
+1. xinapi-interface
+2. xinapi-backend
+3. xinapi-gateway
 
 ### 前端
 
