@@ -112,13 +112,15 @@ const Index: React.FC = () => {
       });
 
       if (res.code === 0) {
-        setInvokeRes(res.data);
+        // setInvokeRes(res.data);
+        setInvokeRes(JSON.stringify(res));
         message.success('请求成功');
       }
     } catch (e: any) {
       message.error('请求失败，' + e.message);
     }
     setInvokeLoading(false);
+    loadData();
     return;
   };
 
@@ -214,15 +216,17 @@ const Index: React.FC = () => {
         </Card>
         <Divider />
         <Card title="测试结果：" loading={invokeLoading}>
-          <ul>
-            {invokeRes?.map((res) => {
-              return (
-                <li key={res.id}>
-                  <b>{res}</b>
-                </li>
-              );
-            })}
-          </ul>
+          {/*<ul>*/}
+          {/*  {invokeRes?.map((res) => {*/}
+          {/*    return (*/}
+          {/*      <li key={res.id} style={{ marginBottom: 20 }}>*/}
+          {/*        <b>标题：{res.title} </b>*/}
+          {/*        <b>{res.content} </b>*/}
+          {/*      </li>*/}
+          {/*    );*/}
+          {/*  })}*/}
+          {/*</ul>*/}
+          {invokeRes ? <b>{invokeRes} </b> : <>请求失败</>}
         </Card>
       </PageContainer>
 

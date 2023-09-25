@@ -1,4 +1,4 @@
-import { BookFilled, GithubOutlined } from '@ant-design/icons';
+import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-components';
 import '@umijs/max';
 const Footer: React.FC = () => {
@@ -14,19 +14,13 @@ const Footer: React.FC = () => {
         {
           key: 'GitHub',
           title: 'GitHub',
-          href: 'https://github.com/isxiaochen/Chen-API',
+          href: 'https://github.com/axinqiqi/xinapi-web',
           // blankTarget: true,
         },
         {
           key: 'github',
           title: <GithubOutlined />,
-          href: 'https://github.com/isxiaochen/Chen-API',
-          blankTarget: true,
-        },
-        {
-          key: 'blob',
-          title: <BookFilled />,
-          href: 'https://isxiaochen.github.io/',
+          href: 'https://github.com/axinqiqi/xinapi-web',
           blankTarget: true,
         },
         {
