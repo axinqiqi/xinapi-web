@@ -11,8 +11,10 @@
 > 后端开源地址：[https://github.com/axinqiqi/xinapi-server](https://github.com/axinqiqi/xinapi-server)
 
 
+## 项目背景
 
-
+&emsp;&emsp;我的初衷是尽可能帮助和服务更多的用户和开发者，让他们更加方便快捷的获取他们想要的信息和功能。
+接口平台可以帮助开发者快速接入一些常用的服务，从而提高他们的开发效率，比如随机头像，随机壁纸，随机动漫图片(二次元爱好者专用)等服务，他们是一些应用或者小程序常见的功能，所以提供这些接口可以帮助开发者更加方便地实现这些功能。这些接口也可以让用户在使用应用时获得更加全面的功能和服务，从而提高他们的用户体验
 
 
 ## 项目展示
@@ -20,58 +22,40 @@
 
 - 首页
 
-![首页](https://github.com/c-z-q/Chen-Api/blob/master/image/首页.png)
+![首页](https://github.com/axinqiqi/xinapi-server/blob/main/image/首页.png)
 
 - 接口详情
 
-  ![接口详情](https://github.com/c-z-q/Chen-Api/blob/master/image/接口详情.png)
-
-  
+![接口详情](https://github.com/axinqiqi/xinapi-server/blob/main/image/接口详情.png)
 
 - 接口购买
 
-![购买接口](https://github.com/c-z-q/Chen-Api/blob/master/image/购买接口.png)
+![购买接口](https://github.com/axinqiqi/xinapi-server/blob/main/image/%E6%8E%A5%E5%8F%A3%E8%B4%AD%E4%B9%B0.png)
 
 - 接口支付
 
-![支付接口](https://github.com/c-z-q/Chen-Api/blob/master/image/支付接口.png)
+![支付接口](https://github.com/axinqiqi/xinapi-server/blob/main/image/%E6%8E%A5%E5%8F%A3%E6%94%AF%E4%BB%98.png)
 
 - 接口管理
 
-![接口管理](https://github.com/c-z-q/Chen-Api/blob/master/image/接口管理.png)
+![接口管理](https://github.com/axinqiqi/xinapi-server/blob/main/image/%E6%8E%A5%E5%8F%A3%E7%AE%A1%E7%90%86.png)
 
 - 接口分析
 
-![接口分析](https://github.com/c-z-q/Chen-Api/blob/master/image/接口分析.png)
+![接口分析](https://github.com/axinqiqi/xinapi-server/blob/main/image/%E6%8E%A5%E5%8F%A3%E5%88%86%E6%9E%90.png)
 
 - 用户管理
 
-![用户管理](https://github.com/c-z-q/Chen-Api/blob/master/image/用户管理.png)
+![用户管理](https://github.com/axinqiqi/xinapi-server/blob/main/image/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86.png)
 
 - 个人中心
 
-![个人中心](https://github.com/c-z-q/Chen-Api/blob/master/image/个人中心.png)
-
-
-
-
-
-
-
-
-
-
-## 项目背景
-
-&emsp;&emsp;我的初衷是尽可能帮助和服务更多的用户和开发者，让他们更加方便快捷的获取他们想要的信息和功能。
-接口平台可以帮助开发者快速接入一些常用的服务，从而提高他们的开发效率，比如随机头像，随机壁纸，随机动漫图片(二次元爱好者专用)等服务，他们是一些应用或者小程序常见的功能，所以提供这些接口可以帮助开发者更加方便地实现这些功能。这些接口也可以让用户在使用应用时获得更加全面的功能和服务，从而提高他们的用户体验
-
-
+![个人中心](https://github.com/axinqiqi/xinapi-server/blob/main/image/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png)
 
 
 
 ## 系统架构
-![系统架构图](https://github.com/c-z-q/Chen-Api/blob/master/image/API%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![系统架构图](https://github.com/axinqiqi/xinapi-server/blob/main/image/API%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
 
@@ -94,7 +78,7 @@
 ### 后端技术栈
 
 - 主语言：Java
-- 框架：SpringBoot 2.7.0、Mybatis-plus、Spring Cloud
+- 框架：SpringBoot 2.7.2、Mybatis-plus、Spring Cloud
 - 数据库：Mysql8.0、Redis
 - 中间件：RabbitMq
 - 注册中心：Nacos
