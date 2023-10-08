@@ -6,7 +6,7 @@
 >
 > 
 >
-> 在线体验地址：[Xin API](http://139.159.192.124/)
+> 在线体验地址：[Xin API](http://xinapi-axin.top/)
 > 
 > 后端开源地址：[https://github.com/axinqiqi/xinapi-server](https://github.com/axinqiqi/xinapi-server)
 
